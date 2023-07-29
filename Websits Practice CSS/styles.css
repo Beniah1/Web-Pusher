@@ -1,0 +1,16 @@
+body {
+  background: linear-gradient(45deg, #61bdd4, #b63d3d);
+  color: aliceblue;
+}
+
+img {
+  border-radius: 20px;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.bird{
+    margin-top: 20px;
+    margin-bottom: 20px;
+      
+}

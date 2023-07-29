@@ -1,0 +1,11 @@
+.one-way{
+  color: rgb(85, 146, 5);
+  background-color: rgb(225, 255, 211);
+  font-size: 30px;
+  text-align: center;
+  padding: 40px;
+  margin: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: solid 5px rgb(85, 146, 5);
+  border-radius: 50px;
+}

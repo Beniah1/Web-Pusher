@@ -1,0 +1,123 @@
+/* ===========================
+        =CONTENT=
+  BODY: Background-color
+  STYLES: Navigation
+============================ */
+
+/* Sticky nav styles */
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.05);
+}
+
+/* Body Background link color */
+Body {
+  background-color: #ffffff;
+}
+
+/* Navbar link styles */
+.navbar .navbar-nav .nav-link {
+  color: #000000;
+  font-size: 1.1em;
+}
+/* Navbar link hover styles */
+.navbar .navbar-nav .nav-link:hover {
+  color: #000000;
+}
+
+/* Navbar item styles */
+.navbar .navbar-nav .nav-item {
+  position: relative;
+}
+
+/* Navbar item underline styles */
+.navbar .navbar-nav .nav-item::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #000000;
+  width: 0%;
+  content: "";
+  height: 4px;
+  transition: all 0.5s;
+}
+
+/* Navbar item hover underline styles */
+.navbar .navbar-nav .nav-item:hover::after {
+  width: 100%;
+}
+
+/*Video & Text-border*/
+.no-round {
+  border-radius: 0;
+}
+
+.no-round .card-img-overlay {
+  border-radius: 0;
+}
+
+/*text-margin-top*/
+.txt-mt {
+  margin-top: 3rem;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+/*Card-Image & Text*/
+
+.my-card {
+  background-color: inherit;
+  border: none;
+}
+
+.card-img-top {
+  object-fit: cover;
+  width: 100%;
+  height: 600px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.card-text {
+  color: rgb(0, 0, 0);
+}
+
+/*Card-Image & Text Space @left-&-right*/
+.custom-margin {
+  margin-top: 2rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+@media (max-width: 576px) {
+  .custom-margin {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+/*/*Card-Image & Text*/
+.txt-mr-ft {
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-left: 10.7rem;
+  font-size: 2rem;
+}
+
+.contain {
+  margin-left: 10rem;
+}
+
+@media (max-width: 576px) {
+  .contain {
+    margin-left: 10rem;
+  }
+}
