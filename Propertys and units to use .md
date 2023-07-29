@@ -64,5 +64,3 @@ body {
 button {
   padding: 1em;
 }
-
-Let me know if you need me to clarify or expand on any of the code examples!b
