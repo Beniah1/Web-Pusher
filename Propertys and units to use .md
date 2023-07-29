@@ -1,4 +1,4 @@
-# Propertys and units to use 
+# property's and units to use  
 
 Here is the code written under each point:
 
